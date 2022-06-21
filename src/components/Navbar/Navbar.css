@@ -1,0 +1,25 @@
+.links {
+    display: block;
+    float: right;
+    padding-right: 10px;
+}
+
+.links a{
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+.logo { 
+    color: red;
+}
+
+.navbar {
+    background-color: lightblue;
+    padding: 10px;
+}
