@@ -1,0 +1,42 @@
+export const SliderData = [
+    {
+			//BTS
+			image:'https://cdn.i-scmp.com/sites/default/files/styles/1920x1080/public/d8/images/methode/2019/10/02/7fb8e3de-e4d0-11e9-8a10-b9721f28293e_image_hires_172616.JPG?itok=6WO38FbQ&v=1570008381'
+    },
+		{
+			//Blackpink
+			image:'https://www.musicmundial.com/en/wp-content/uploads/2022/05/BLACKPINK-breaks-as-the-group-with-the-longest-hiatus-in-their-generation.jpg'
+		},
+		{
+			//Twice
+			image:'https://kpopping.com/documents/4c/0/1500/210615-TWICE-Alcohol-Free-MV-Shoot-Behind-Press-photos-documents-1.jpeg?v=b3620'
+		},
+		{
+			//Aespa
+			image:'https://au.rollingstone.com/wp-content/uploads/2021/10/aespa-savage--e1633460607247.jpeg'
+		},
+		{
+			//Stray Kids
+			image:'https://www.allkpop.com/upload/2021/08/content/161101/web_data/allkpop_1629126817_untitled-1.jpg'
+		},
+		{
+			//BTS2
+			image:'https://data.whicdn.com/images/333421901/original.gif'
+    },
+		{
+			//Blackpink2
+			image:'https://i.pinimg.com/originals/fe/19/b2/fe19b29f75c7d31d71f215bb60dece08.gif'
+    },
+		{
+			//Twice2
+			image:'https://media4.giphy.com/media/gQylrncUyyvskf9L2Y/giphy.gif'
+    },
+		{
+			//Aespa2
+			image:'https://c.tenor.com/s5SeYr98cX8AAAAC/aespa-next-level.gif'
+    },
+		{
+			//Stray Kids2
+			image:'https://i.pinimg.com/originals/5a/a4/35/5aa435122dc93a6a04b778b4bd1542be.gif'
+		}
+]

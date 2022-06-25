@@ -1,10 +1,20 @@
 import React from "react";
-import {Routes, Route} from "react-router-dom"
-import Navbar from "./components/Navbar/Navbar";
+import {Route, Routes} from "react-router-dom"
+import FrontPage from "./pages/FrontPage/FrontPage";
+import BtsPage from "./pages/BtsPage/BtsPage";
 
 function App() {
   return (
-    < Navbar />
+   <Routes>
+    <Route 
+      path="/"
+      element={<FrontPage />}
+    />
+    <Route 
+      path="/BTS"
+      element={<BtsPage />}
+    />
+   </Routes>
   );
 }
 

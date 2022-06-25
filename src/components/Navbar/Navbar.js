@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ".//Navbar.css"
 
@@ -9,10 +10,12 @@ export default function Navbar() {
 			<div className="logo">
 				<FavoriteIcon />
 				<div className="links">
-					<a href="/BTS">BTS</a>
-					<a href="/Blackpink">BlackPink</a>
-					<a href="/Twice">Twice</a>
-					<a href="/Aepsa">Aespa</a>
+					<Link to="/">Home</Link>
+					<Link to="/BTS"> BTS </Link>
+					<Link to="/BlackPink"> BlackPink</Link>
+					<Link to="Twice"> Twice</Link>
+					<Link to="Aespa"> Aespa</Link>
+					<Link to="StrayKids"> Stray Kids</Link>
 				</div>
 			</div>
     </nav>
