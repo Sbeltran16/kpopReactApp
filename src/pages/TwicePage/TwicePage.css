@@ -1,4 +1,4 @@
-.btsImg {
+.twiceImg {
     width: 750px;
     height: 450px;
     border-radius: 10px;
@@ -6,17 +6,12 @@
     margin: auto;
 }
 
-.btsHeader {
+.twiceHeader {
     text-align: center;
     font-size: 70px;
     font-family: 'Roboto Condensed', sans-serif;
-    text-shadow: 0px 4px 3px #6A0DAD,
-             0px 8px 13px white,
-             0px 18px 23px #6A0DAD;
+    text-shadow: 0px 4px 3px #F0c89B,
+             0px 8px 13px #F45990,
+             0px 18px 23px #F0c89B;
 }
-
-
-
-
-
 

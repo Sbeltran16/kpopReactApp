@@ -2,10 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 75px;
+    font-family: 'Roboto Condensed', sans-serif;
     margin: auto;
 }
 
 body {
-    background-color:#87bdd8  ;
+    background-color:#8E9AAF  ;
 }
