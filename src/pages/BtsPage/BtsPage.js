@@ -9,7 +9,7 @@ export default function BtsPage() {
     <>
     <Navbar />
     <h1 className="btsHeader">BTS</h1>
-    <img  className='btsImg' alt="" src="https://images.hindustantimes.com/img/2022/05/27/1600x900/bts-proof-album_1653669893020_1653669933780.jfif"/>
+    <img className='btsImg' alt="" src="https://www.allkpop.com/upload/2022/04/content/201224/1650471867-untitled-1.jpg"/>
     
     <BtsCards />
     </>

@@ -1,13 +1,13 @@
 .slider {
     position: relative;
-    height: 100vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .image {
-    width: 750px;
+    width: 650px;
     height: 450px;
     border-radius: 10px;
   }
@@ -44,3 +44,5 @@
     transition-duration: 2s;
     transform: scale(1.08);
   }
+
+

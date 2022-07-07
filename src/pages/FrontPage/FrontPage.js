@@ -9,7 +9,7 @@ export default function FrontPage() {
     <>
     <Navbar />
     <h1 className='fptitle'>
-        Welcome to the KPopped
+        Welcome to the KPopped!
     </h1>
     <ImgCarousel slides={SliderData} />
     </>
