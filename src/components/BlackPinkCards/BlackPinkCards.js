@@ -1,14 +1,14 @@
 import React from 'react'
-import { Reveal, Card, Image } from "semantic-ui-react";
+import { Icon, Reveal, Card, Image } from "semantic-ui-react";
 import "../../Styling/CardsStyling/Cards.css"
 
 export default function BlackPinkCards() {
   return (
     <>
     <h2 className="membersTitle">Members</h2>
-    <Card.Group itemsPerRow={4}>
+    <Card.Group centered items={Card} itemsPerRow={6}>
     <Card>
-        <Reveal animated='move' instant>
+        <Reveal animated='move right' instant>
         <Reveal.Content visible>
         <Image className="cardImg" src='https://www.allkpop.com/upload/2021/03/content/072004/1615165452-lisa.jpg' size="xlarge" />
         </Reveal.Content>
@@ -19,10 +19,12 @@ export default function BlackPinkCards() {
       <Card.Content>
         <Card.Header>Lisa</Card.Header>
         <Card.Description>
-          <a href="https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/platinum-series/pl2/113/">Card Details</a>
+          <p> Lalisa Manobal is a member of blackpink</p> 
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
+        <a href="https://www.instagram.com/lalalalisa_m/"><Icon name='instagram' size='big'/></a>
+        <a href="https://www.youtube.com/channel/UC35HKvKYPkri4Grd5KXl3wQ"><Icon name='youtube' size='big'/></a>
       </Card.Content>
     </Card>
     <Card>
@@ -37,14 +39,16 @@ export default function BlackPinkCards() {
       <Card.Content>
         <Card.Header>Jennie</Card.Header>
         <Card.Description>
-          <a href="https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/ss-series/swsh35/79/">Card Details</a>
+        <p>Jennie Kim is a member of blackpink</p> 
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
+        <a href="https://www.instagram.com/jennierubyjane/"><Icon name='instagram' size='big'/></a>
+        <a href="https://www.youtube.com/channel/UCNYi_zGmR519r5gYdOKLTjQ"><Icon name='youtube' size='big'/></a>
       </Card.Content>
     </Card>
     <Card>
-    <Reveal animated='move' instant>
+    <Reveal animated='move down' instant>
         <Reveal.Content visible>
         <Image className="cardImg" src='https://www.rollingstone.com/wp-content/uploads/2022/05/R1364_Blackpink_03.jpg' size="xlarge" />
         </Reveal.Content>
@@ -55,14 +59,16 @@ export default function BlackPinkCards() {
       <Card.Content>
         <Card.Header>Rose</Card.Header>
         <Card.Description>
-         <a href="https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/ss-series/swshp/SWSH005/">Card Details</a>
+        <p>Chaeyoung Park is a member of blackpink</p> 
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
+        <a href="https://www.instagram.com/roses_are_rosie/"><Icon name='instagram' size='big'/></a>
+        <a href="https://www.youtube.com/channel/UCBo1hnzxV9rz3WVsv__Rn1g"><Icon name='youtube' size='big'/></a>
       </Card.Content>
     </Card>
     <Card>
-    <Reveal animated='move' instant>
+    <Reveal animated='move up' instant>
         <Reveal.Content visible>
         <Image className="cardImg" src='https://i.pinimg.com/736x/13/d5/e7/13d5e78b6cf604996d172ed265f742ba.jpg' size="xlarge" />
         </Reveal.Content>
@@ -73,13 +79,44 @@ export default function BlackPinkCards() {
       <Card.Content>
         <Card.Header>Jisoo</Card.Header>
         <Card.Description>
-         <a href="https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/ss-series/swsh4/188/">Card Details</a>
+        <p>Jisoo Kim is a member of blackpink</p> 
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
+      <a href="https://www.instagram.com/sooyaaa__/"><Icon name='instagram' size='big'/></a>
       </Card.Content>
     </Card>
   </Card.Group>
+    <h2 className='membersTitle'>Music Videos</h2>
+    <div className='videos'>
+      <iframe 
+        width="600" 
+        height="350"
+        src="https://www.youtube.com/embed/IHNzOHi8sJs" 
+        title="BLACKPINK - ‘뚜두뚜두 (DDU-DU DDU-DU)’ M/V" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      <iframe 
+          width="600" 
+          height="350" 
+          src="https://www.youtube.com/embed/ioNng23DkIM" 
+          title="BLACKPINK - 'How You Like That' M/V" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      <iframe 
+          width="600" 
+          height="350" 
+          src="https://www.youtube.com/embed/Amq-qlqbjYA" 
+          title="BLACKPINK - '마지막처럼 (AS IF IT'S YOUR LAST)' M/V" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+    </div>
     </>
   )
 }

@@ -6,7 +6,7 @@ export default function btsCards() {
   return (
     <>
     <h2 className="membersTitle">Members</h2>
-    <Card.Group centered items={Card} itemsPerRow={7}>
+    <Card.Group centered items={Card} itemsPerRow={9}>
     <Card>
     <Reveal animated='move' instant>
         <Reveal.Content visible>
